@@ -1,0 +1,957 @@
+Тестирование производительности LaTeX-документов
+============================================================
+Тип(ы) документа: macrodef
+Директория с изображениями: images
+Количество запусков для каждого N: 10
+Команда LaTeX: pdflatex
+Базовая директория тестов: experiment
+Значения N: [10, 20, 30, 50, 70, 100, 200, 500, 750, 1000, 1250, 1500, 1750, 2000]
+============================================================
+
+############################################################
+ТЕСТИРОВАНИЕ ТИПА: macrodef
+############################################################
+
+============================================================
+Генерация macrodef версии с N=10
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_10
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 10 изображений...
+Успешно скопировано 10 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_10/main.tex
+  Файл описаний: experiment/macrodef/macrodef_10/des.tex
+  Файл данных: experiment/macrodef/macrodef_10/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_10/images
+  Всего блоков: 10
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 2/10...
+  time (real): 0.33 сек
+  l3benchmark: 0.10 сек
+
+Запуск 3/10...
+  time (real): 0.33 сек
+  l3benchmark: 0.10 сек
+
+Запуск 4/10...
+  time (real): 0.31 сек
+  l3benchmark: 0.10 сек
+
+Запуск 5/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 6/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 7/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 8/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 9/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 10/10...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Сводка для macrodef, N=10:
+  time среднее: 0.32 сек (min: 0.31, max: 0.33, успешных: 10/10)
+  benchmark среднее: 0.10 сек (min: 0.10, max: 0.10, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=20
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_20
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 20 изображений...
+Успешно скопировано 20 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_20/main.tex
+  Файл описаний: experiment/macrodef/macrodef_20/des.tex
+  Файл данных: experiment/macrodef/macrodef_20/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_20/images
+  Всего блоков: 20
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.34 сек
+  l3benchmark: 0.12 сек
+
+Запуск 2/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.12 сек
+
+Запуск 3/10...
+  time (real): 0.33 сек
+  l3benchmark: 0.11 сек
+
+Запуск 4/10...
+  time (real): 0.34 сек
+  l3benchmark: 0.12 сек
+
+Запуск 5/10...
+  time (real): 0.34 сек
+  l3benchmark: 0.12 сек
+
+Запуск 6/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.12 сек
+
+Запуск 7/10...
+  time (real): 0.34 сек
+  l3benchmark: 0.12 сек
+
+Запуск 8/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.12 сек
+
+Запуск 9/10...
+  time (real): 0.33 сек
+  l3benchmark: 0.11 сек
+
+Запуск 10/10...
+  time (real): 0.34 сек
+  l3benchmark: 0.12 сек
+
+Сводка для macrodef, N=20:
+  time среднее: 0.34 сек (min: 0.33, max: 0.35, успешных: 10/10)
+  benchmark среднее: 0.12 сек (min: 0.11, max: 0.12, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=30
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_30
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 30 изображений...
+Успешно скопировано 30 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_30/main.tex
+  Файл описаний: experiment/macrodef/macrodef_30/des.tex
+  Файл данных: experiment/macrodef/macrodef_30/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_30/images
+  Всего блоков: 30
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 2/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 3/10...
+  time (real): 0.36 сек
+  l3benchmark: 0.13 сек
+
+Запуск 4/10...
+  time (real): 0.37 сек
+  l3benchmark: 0.13 сек
+
+Запуск 5/10...
+  time (real): 0.36 сек
+  l3benchmark: 0.13 сек
+
+Запуск 6/10...
+  time (real): 0.63 сек
+  l3benchmark: 0.12 сек
+
+Запуск 7/10...
+  time (real): 0.36 сек
+  l3benchmark: 0.13 сек
+
+Запуск 8/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 9/10...
+  time (real): 0.36 сек
+  l3benchmark: 0.13 сек
+
+Запуск 10/10...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Сводка для macrodef, N=30:
+  time среднее: 0.38 сек (min: 0.35, max: 0.63, успешных: 10/10)
+  benchmark среднее: 0.13 сек (min: 0.12, max: 0.13, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=50
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_50
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 50 изображений...
+Успешно скопировано 50 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_50/main.tex
+  Файл описаний: experiment/macrodef/macrodef_50/des.tex
+  Файл данных: experiment/macrodef/macrodef_50/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_50/images
+  Всего блоков: 50
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 2/10...
+  time (real): 0.38 сек
+  l3benchmark: 0.16 сек
+
+Запуск 3/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 4/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 5/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 6/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.17 сек
+
+Запуск 7/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 8/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 9/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 10/10...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Сводка для macrodef, N=50:
+  time среднее: 0.39 сек (min: 0.38, max: 0.39, успешных: 10/10)
+  benchmark среднее: 0.16 сек (min: 0.16, max: 0.17, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=70
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_70
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 70 изображений...
+Успешно скопировано 70 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_70/main.tex
+  Файл описаний: experiment/macrodef/macrodef_70/des.tex
+  Файл данных: experiment/macrodef/macrodef_70/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_70/images
+  Всего блоков: 70
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 2/10...
+  time (real): 0.41 сек
+  l3benchmark: 0.19 сек
+
+Запуск 3/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 4/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 5/10...
+  time (real): 0.86 сек
+  l3benchmark: 0.18 сек
+
+Запуск 6/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 7/10...
+  time (real): 0.41 сек
+  l3benchmark: 0.19 сек
+
+Запуск 8/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 9/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Запуск 10/10...
+  time (real): 0.42 сек
+  l3benchmark: 0.19 сек
+
+Сводка для macrodef, N=70:
+  time среднее: 0.46 сек (min: 0.41, max: 0.86, успешных: 10/10)
+  benchmark среднее: 0.19 сек (min: 0.18, max: 0.19, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=100
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_100
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 100 изображений...
+Успешно скопировано 100 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_100/main.tex
+  Файл описаний: experiment/macrodef/macrodef_100/des.tex
+  Файл данных: experiment/macrodef/macrodef_100/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_100/images
+  Всего блоков: 100
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.24 сек
+
+Запуск 2/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 3/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 4/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 5/10...
+  time (real): 0.45 сек
+  l3benchmark: 0.22 сек
+
+Запуск 6/10...
+  time (real): 0.84 сек
+  l3benchmark: 0.23 сек
+
+Запуск 7/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 8/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 9/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Запуск 10/10...
+  time (real): 0.46 сек
+  l3benchmark: 0.23 сек
+
+Сводка для macrodef, N=100:
+  time среднее: 0.50 сек (min: 0.45, max: 0.84, успешных: 10/10)
+  benchmark среднее: 0.23 сек (min: 0.22, max: 0.24, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=200
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_200
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 200 изображений...
+Успешно скопировано 200 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_200/main.tex
+  Файл описаний: experiment/macrodef/macrodef_200/des.tex
+  Файл данных: experiment/macrodef/macrodef_200/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_200/images
+  Всего блоков: 200
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 0.61 сек
+  l3benchmark: 0.38 сек
+
+Запуск 2/10...
+  time (real): 0.60 сек
+  l3benchmark: 0.38 сек
+
+Запуск 3/10...
+  time (real): 0.61 сек
+  l3benchmark: 0.38 сек
+
+Запуск 4/10...
+  time (real): 0.62 сек
+  l3benchmark: 0.38 сек
+
+Запуск 5/10...
+  time (real): 0.62 сек
+  l3benchmark: 0.38 сек
+
+Запуск 6/10...
+  time (real): 0.62 сек
+  l3benchmark: 0.38 сек
+
+Запуск 7/10...
+  time (real): 0.61 сек
+  l3benchmark: 0.38 сек
+
+Запуск 8/10...
+  time (real): 0.61 сек
+  l3benchmark: 0.38 сек
+
+Запуск 9/10...
+  time (real): 0.62 сек
+  l3benchmark: 0.38 сек
+
+Запуск 10/10...
+  time (real): 0.62 сек
+  l3benchmark: 0.38 сек
+
+Сводка для macrodef, N=200:
+  time среднее: 0.61 сек (min: 0.60, max: 0.62, успешных: 10/10)
+  benchmark среднее: 0.38 сек (min: 0.38, max: 0.38, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=500
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_500
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 500 изображений...
+Успешно скопировано 500 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_500/main.tex
+  Файл описаний: experiment/macrodef/macrodef_500/des.tex
+  Файл данных: experiment/macrodef/macrodef_500/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_500/images
+  Всего блоков: 500
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 1.08 сек
+  l3benchmark: 0.84 сек
+
+Запуск 2/10...
+  time (real): 1.06 сек
+  l3benchmark: 0.83 сек
+
+Запуск 3/10...
+  time (real): 1.07 сек
+  l3benchmark: 0.83 сек
+
+Запуск 4/10...
+  time (real): 1.06 сек
+  l3benchmark: 0.83 сек
+
+Запуск 5/10...
+  time (real): 1.06 сек
+  l3benchmark: 0.83 сек
+
+Запуск 6/10...
+  time (real): 1.03 сек
+  l3benchmark: 0.81 сек
+
+Запуск 7/10...
+  time (real): 1.05 сек
+  l3benchmark: 0.82 сек
+
+Запуск 8/10...
+  time (real): 1.19 сек
+  l3benchmark: 0.82 сек
+
+Запуск 9/10...
+  time (real): 1.04 сек
+  l3benchmark: 0.82 сек
+
+Запуск 10/10...
+  time (real): 1.05 сек
+  l3benchmark: 0.82 сек
+
+Сводка для macrodef, N=500:
+  time среднее: 1.07 сек (min: 1.03, max: 1.19, успешных: 10/10)
+  benchmark среднее: 0.83 сек (min: 0.81, max: 0.84, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=750
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_750
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 750 изображений...
+Успешно скопировано 750 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_750/main.tex
+  Файл описаний: experiment/macrodef/macrodef_750/des.tex
+  Файл данных: experiment/macrodef/macrodef_750/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_750/images
+  Всего блоков: 750
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 1.43 сек
+  l3benchmark: 1.20 сек
+
+Запуск 2/10...
+  time (real): 1.43 сек
+  l3benchmark: 1.19 сек
+
+Запуск 3/10...
+  time (real): 1.41 сек
+  l3benchmark: 1.18 сек
+
+Запуск 4/10...
+  time (real): 1.42 сек
+  l3benchmark: 1.20 сек
+
+Запуск 5/10...
+  time (real): 1.41 сек
+  l3benchmark: 1.19 сек
+
+Запуск 6/10...
+  time (real): 1.42 сек
+  l3benchmark: 1.19 сек
+
+Запуск 7/10...
+  time (real): 1.43 сек
+  l3benchmark: 1.19 сек
+
+Запуск 8/10...
+  time (real): 1.44 сек
+  l3benchmark: 1.20 сек
+
+Запуск 9/10...
+  time (real): 1.43 сек
+  l3benchmark: 1.20 сек
+
+Запуск 10/10...
+  time (real): 1.42 сек
+  l3benchmark: 1.19 сек
+
+Сводка для macrodef, N=750:
+  time среднее: 1.42 сек (min: 1.41, max: 1.44, успешных: 10/10)
+  benchmark среднее: 1.19 сек (min: 1.18, max: 1.20, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=1000
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_1000
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 1000 изображений...
+Успешно скопировано 1000 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_1000/main.tex
+  Файл описаний: experiment/macrodef/macrodef_1000/des.tex
+  Файл данных: experiment/macrodef/macrodef_1000/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_1000/images
+  Всего блоков: 1000
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 1.79 сек
+  l3benchmark: 1.57 сек
+
+Запуск 2/10...
+  time (real): 1.80 сек
+  l3benchmark: 1.57 сек
+
+Запуск 3/10...
+  time (real): 1.79 сек
+  l3benchmark: 1.56 сек
+
+Запуск 4/10...
+  time (real): 1.76 сек
+  l3benchmark: 1.53 сек
+
+Запуск 5/10...
+  time (real): 1.98 сек
+  l3benchmark: 1.55 сек
+
+Запуск 6/10...
+  time (real): 1.73 сек
+  l3benchmark: 1.51 сек
+
+Запуск 7/10...
+  time (real): 1.76 сек
+  l3benchmark: 1.53 сек
+
+Запуск 8/10...
+  time (real): 1.82 сек
+  l3benchmark: 1.59 сек
+
+Запуск 9/10...
+  time (real): 1.78 сек
+  l3benchmark: 1.55 сек
+
+Запуск 10/10...
+  time (real): 1.73 сек
+  l3benchmark: 1.51 сек
+
+Сводка для macrodef, N=1000:
+  time среднее: 1.79 сек (min: 1.73, max: 1.98, успешных: 10/10)
+  benchmark среднее: 1.55 сек (min: 1.51, max: 1.59, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=1250
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_1250
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 1250 изображений...
+Успешно скопировано 1250 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_1250/main.tex
+  Файл описаний: experiment/macrodef/macrodef_1250/des.tex
+  Файл данных: experiment/macrodef/macrodef_1250/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_1250/images
+  Всего блоков: 1250
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 2.15 сек
+  l3benchmark: 1.93 сек
+
+Запуск 2/10...
+  time (real): 2.16 сек
+  l3benchmark: 1.92 сек
+
+Запуск 3/10...
+  time (real): 2.14 сек
+  l3benchmark: 1.91 сек
+
+Запуск 4/10...
+  time (real): 2.07 сек
+  l3benchmark: 1.85 сек
+
+Запуск 5/10...
+  time (real): 2.14 сек
+  l3benchmark: 1.91 сек
+
+Запуск 6/10...
+  time (real): 2.15 сек
+  l3benchmark: 1.92 сек
+
+Запуск 7/10...
+  time (real): 2.15 сек
+  l3benchmark: 1.92 сек
+
+Запуск 8/10...
+  time (real): 2.13 сек
+  l3benchmark: 1.90 сек
+
+Запуск 9/10...
+  time (real): 2.08 сек
+  l3benchmark: 1.86 сек
+
+Запуск 10/10...
+  time (real): 2.11 сек
+  l3benchmark: 1.89 сек
+
+Сводка для macrodef, N=1250:
+  time среднее: 2.13 сек (min: 2.07, max: 2.16, успешных: 10/10)
+  benchmark среднее: 1.90 сек (min: 1.85, max: 1.93, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=1500
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_1500
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 1500 изображений...
+Успешно скопировано 1500 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_1500/main.tex
+  Файл описаний: experiment/macrodef/macrodef_1500/des.tex
+  Файл данных: experiment/macrodef/macrodef_1500/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_1500/images
+  Всего блоков: 1500
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 2.50 сек
+  l3benchmark: 2.27 сек
+
+Запуск 2/10...
+  time (real): 2.56 сек
+  l3benchmark: 2.25 сек
+
+Запуск 3/10...
+  time (real): 2.48 сек
+  l3benchmark: 2.25 сек
+
+Запуск 4/10...
+  time (real): 2.57 сек
+  l3benchmark: 2.26 сек
+
+Запуск 5/10...
+  time (real): 2.51 сек
+  l3benchmark: 2.26 сек
+
+Запуск 6/10...
+  time (real): 2.44 сек
+  l3benchmark: 2.20 сек
+
+Запуск 7/10...
+  time (real): 2.47 сек
+  l3benchmark: 2.24 сек
+
+Запуск 8/10...
+  time (real): 2.56 сек
+  l3benchmark: 2.25 сек
+
+Запуск 9/10...
+  time (real): 2.47 сек
+  l3benchmark: 2.23 сек
+
+Запуск 10/10...
+  time (real): 2.49 сек
+  l3benchmark: 2.26 сек
+
+Сводка для macrodef, N=1500:
+  time среднее: 2.50 сек (min: 2.44, max: 2.57, успешных: 10/10)
+  benchmark среднее: 2.25 сек (min: 2.20, max: 2.27, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=1750
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_1750
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 1750 изображений...
+Успешно скопировано 1750 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_1750/main.tex
+  Файл описаний: experiment/macrodef/macrodef_1750/des.tex
+  Файл данных: experiment/macrodef/macrodef_1750/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_1750/images
+  Всего блоков: 1750
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 2.83 сек
+  l3benchmark: 2.60 сек
+
+Запуск 2/10...
+  time (real): 2.92 сек
+  l3benchmark: 2.60 сек
+
+Запуск 3/10...
+  time (real): 2.88 сек
+  l3benchmark: 2.62 сек
+
+Запуск 4/10...
+  time (real): 2.83 сек
+  l3benchmark: 2.59 сек
+
+Запуск 5/10...
+  time (real): 2.80 сек
+  l3benchmark: 2.56 сек
+
+Запуск 6/10...
+  time (real): 2.84 сек
+  l3benchmark: 2.60 сек
+
+Запуск 7/10...
+  time (real): 2.92 сек
+  l3benchmark: 2.61 сек
+
+Запуск 8/10...
+  time (real): 2.82 сек
+  l3benchmark: 2.59 сек
+
+Запуск 9/10...
+  time (real): 2.91 сек
+  l3benchmark: 2.60 сек
+
+Запуск 10/10...
+  time (real): 2.81 сек
+  l3benchmark: 2.58 сек
+
+Сводка для macrodef, N=1750:
+  time среднее: 2.86 сек (min: 2.80, max: 2.92, успешных: 10/10)
+  benchmark среднее: 2.60 сек (min: 2.56, max: 2.62, успешных: 10/10)
+
+============================================================
+Генерация macrodef версии с N=2000
+============================================================
+Генерация версии документа с макросами:
+  Папка с изображениями: images
+  Выходная директория: experiment/macrodef/macrodef_2000
+  Используются макросы \def вместо catchfilebetweentags
+Копирование 2000 изображений...
+Успешно скопировано 2000 изображений
+
+Версия с макросами успешно сгенерирована!
+  Основной файл: experiment/macrodef/macrodef_2000/main.tex
+  Файл описаний: experiment/macrodef/macrodef_2000/des.tex
+  Файл данных: experiment/macrodef/macrodef_2000/data.tex
+  Изображения скопированы в: experiment/macrodef/macrodef_2000/images
+  Всего блоков: 2000
+
+stderr: /home/alex/University/work/analyzer_cpp/draft_c/tests/catchfilebetweentags/generate_macro_version.py:50: SyntaxWarning: invalid escape sequence '\d'
+  Генерирует версию LaTeX-документа с макросами \def вместо catchfilebetweentags.
+
+Запуск компиляции 10 раз...
+
+Запуск 1/10...
+  time (real): 3.21 сек
+  l3benchmark: 2.98 сек
+
+Запуск 2/10...
+  time (real): 3.30 сек
+  l3benchmark: 2.98 сек
+
+Запуск 3/10...
+  time (real): 3.13 сек
+  l3benchmark: 2.86 сек
+
+Запуск 4/10...
+  time (real): 3.15 сек
+  l3benchmark: 2.91 сек
+
+Запуск 5/10...
+  time (real): 3.30 сек
+  l3benchmark: 2.98 сек
+
+Запуск 6/10...
+  time (real): 3.10 сек
+  l3benchmark: 2.87 сек
+
+Запуск 7/10...
+  time (real): 3.18 сек
+  l3benchmark: 2.95 сек
+
+Запуск 8/10...
+  time (real): 3.09 сек
+  l3benchmark: 2.87 сек
+
+Запуск 9/10...
+  time (real): 3.10 сек
+  l3benchmark: 2.87 сек
+
+Запуск 10/10...
+  time (real): 3.14 сек
+  l3benchmark: 2.92 сек
+
+Сводка для macrodef, N=2000:
+  time среднее: 3.17 сек (min: 3.09, max: 3.30, успешных: 10/10)
+  benchmark среднее: 2.92 сек (min: 2.86, max: 2.98, успешных: 10/10)
+
+✓ Результаты сохранены в ./benchmark_result_macrodef/benchmark_result_macrodef.csv
+
+============================================================
+ФИНАЛЬНАЯ СВОДКА ДЛЯ macrodef
+============================================================
+N=  10: time=  0.32с, benchmark=  0.10с
+N=  20: time=  0.34с, benchmark=  0.12с
+N=  30: time=  0.38с, benchmark=  0.13с
+N=  50: time=  0.39с, benchmark=  0.16с
+N=  70: time=  0.46с, benchmark=  0.19с
+N= 100: time=  0.50с, benchmark=  0.23с
+N= 200: time=  0.61с, benchmark=  0.38с
+N= 500: time=  1.07с, benchmark=  0.83с
+N= 750: time=  1.42с, benchmark=  1.19с
+N=1000: time=  1.79с, benchmark=  1.55с
+N=1250: time=  2.13с, benchmark=  1.90с
+N=1500: time=  2.50с, benchmark=  2.25с
+N=1750: time=  2.86с, benchmark=  2.60с
+N=2000: time=  3.17с, benchmark=  2.92с

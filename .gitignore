@@ -1,0 +1,28 @@
+# Python-generated files  
+__pycache__/  
+*.py[oc]  
+build/  
+wheels/  
+*.egg-info  
+# Project files  
+.venv  
+.idea/  
+.DS_Store  
+.env  
+.vscode/  
+.mypy_cache/
+
+images/
+experiment/
+old/
+backup/
+*.aux
+*.fls
+*.fdb_latexmk
+
+flat/
+flat_inner/
+modular/
+modular_inner/
+modular_inner_last/
+macrodef/

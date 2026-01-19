@@ -1,0 +1,635 @@
+Тестирование производительности LaTeX-документов
+============================================================
+Тип(ы) документа: modular_inner
+Директория с изображениями: images
+Количество запусков для каждого N: 5
+Команда LaTeX: pdflatex
+Базовая директория тестов: experiment
+Значения N: [10, 20, 30, 50, 70, 100, 200, 500, 750, 1000, 1250, 1500, 1750, 2000]
+============================================================
+
+############################################################
+ТЕСТИРОВАНИЕ ТИПА: modular_inner
+############################################################
+
+============================================================
+Генерация modular_inner версии с N=10
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_10
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 10 изображений...
+Успешно скопировано 10 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_10/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_10/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_10/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_10/images
+  Всего блоков: 10
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 2/5...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 3/5...
+  time (real): 0.33 сек
+  l3benchmark: 0.10 сек
+
+Запуск 4/5...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Запуск 5/5...
+  time (real): 0.32 сек
+  l3benchmark: 0.10 сек
+
+Сводка для modular_inner, N=10:
+  time среднее: 0.32 сек (min: 0.32, max: 0.33, успешных: 5/5)
+  benchmark среднее: 0.10 сек (min: 0.10, max: 0.10, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=20
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_20
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 20 изображений...
+Успешно скопировано 20 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_20/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_20/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_20/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_20/images
+  Всего блоков: 20
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 2/5...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 3/5...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 4/5...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Запуск 5/5...
+  time (real): 0.35 сек
+  l3benchmark: 0.13 сек
+
+Сводка для modular_inner, N=20:
+  time среднее: 0.35 сек (min: 0.35, max: 0.35, успешных: 5/5)
+  benchmark среднее: 0.13 сек (min: 0.13, max: 0.13, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=30
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_30
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 30 изображений...
+Успешно скопировано 30 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_30/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_30/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_30/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_30/images
+  Всего блоков: 30
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Запуск 2/5...
+  time (real): 0.38 сек
+  l3benchmark: 0.16 сек
+
+Запуск 3/5...
+  time (real): 0.38 сек
+  l3benchmark: 0.16 сек
+
+Запуск 4/5...
+  time (real): 0.38 сек
+  l3benchmark: 0.16 сек
+
+Запуск 5/5...
+  time (real): 0.39 сек
+  l3benchmark: 0.16 сек
+
+Сводка для modular_inner, N=30:
+  time среднее: 0.38 сек (min: 0.38, max: 0.39, успешных: 5/5)
+  benchmark среднее: 0.16 сек (min: 0.16, max: 0.16, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=50
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_50
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 50 изображений...
+Успешно скопировано 50 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_50/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_50/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_50/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_50/images
+  Всего блоков: 50
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.48 сек
+  l3benchmark: 0.25 сек
+
+Запуск 2/5...
+  time (real): 0.45 сек
+  l3benchmark: 0.23 сек
+
+Запуск 3/5...
+  time (real): 0.46 сек
+  l3benchmark: 0.24 сек
+
+Запуск 4/5...
+  time (real): 0.46 сек
+  l3benchmark: 0.24 сек
+
+Запуск 5/5...
+  time (real): 0.46 сек
+  l3benchmark: 0.24 сек
+
+Сводка для modular_inner, N=50:
+  time среднее: 0.46 сек (min: 0.45, max: 0.48, успешных: 5/5)
+  benchmark среднее: 0.24 сек (min: 0.23, max: 0.25, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=70
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_70
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 70 изображений...
+Успешно скопировано 70 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_70/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_70/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_70/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_70/images
+  Всего блоков: 70
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.56 сек
+  l3benchmark: 0.34 сек
+
+Запуск 2/5...
+  time (real): 0.56 сек
+  l3benchmark: 0.34 сек
+
+Запуск 3/5...
+  time (real): 0.57 сек
+  l3benchmark: 0.35 сек
+
+Запуск 4/5...
+  time (real): 0.56 сек
+  l3benchmark: 0.34 сек
+
+Запуск 5/5...
+  time (real): 0.56 сек
+  l3benchmark: 0.34 сек
+
+Сводка для modular_inner, N=70:
+  time среднее: 0.56 сек (min: 0.56, max: 0.57, успешных: 5/5)
+  benchmark среднее: 0.34 сек (min: 0.34, max: 0.35, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=100
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_100
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 100 изображений...
+Успешно скопировано 100 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_100/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_100/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_100/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_100/images
+  Всего блоков: 100
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 0.77 сек
+  l3benchmark: 0.55 сек
+
+Запуск 2/5...
+  time (real): 0.77 сек
+  l3benchmark: 0.54 сек
+
+Запуск 3/5...
+  time (real): 0.75 сек
+  l3benchmark: 0.53 сек
+
+Запуск 4/5...
+  time (real): 0.77 сек
+  l3benchmark: 0.54 сек
+
+Запуск 5/5...
+  time (real): 0.76 сек
+  l3benchmark: 0.54 сек
+
+Сводка для modular_inner, N=100:
+  time среднее: 0.76 сек (min: 0.75, max: 0.77, успешных: 5/5)
+  benchmark среднее: 0.54 сек (min: 0.53, max: 0.55, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=200
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_200
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 200 изображений...
+Успешно скопировано 200 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_200/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_200/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_200/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_200/images
+  Всего блоков: 200
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 1.72 сек
+  l3benchmark: 1.49 сек
+
+Запуск 2/5...
+  time (real): 1.76 сек
+  l3benchmark: 1.54 сек
+
+Запуск 3/5...
+  time (real): 1.77 сек
+  l3benchmark: 1.54 сек
+
+Запуск 4/5...
+  time (real): 1.71 сек
+  l3benchmark: 1.50 сек
+
+Запуск 5/5...
+  time (real): 1.69 сек
+  l3benchmark: 1.47 сек
+
+Сводка для modular_inner, N=200:
+  time среднее: 1.73 сек (min: 1.69, max: 1.77, успешных: 5/5)
+  benchmark среднее: 1.51 сек (min: 1.47, max: 1.54, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=500
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_500
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 500 изображений...
+Успешно скопировано 500 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_500/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_500/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_500/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_500/images
+  Всего блоков: 500
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 7.77 сек
+  l3benchmark: 7.55 сек
+
+Запуск 2/5...
+  time (real): 7.62 сек
+  l3benchmark: 7.41 сек
+
+Запуск 3/5...
+  time (real): 7.58 сек
+  l3benchmark: 7.36 сек
+
+Запуск 4/5...
+  time (real): 7.65 сек
+  l3benchmark: 7.43 сек
+
+Запуск 5/5...
+  time (real): 7.60 сек
+  l3benchmark: 7.38 сек
+
+Сводка для modular_inner, N=500:
+  time среднее: 7.64 сек (min: 7.58, max: 7.77, успешных: 5/5)
+  benchmark среднее: 7.43 сек (min: 7.36, max: 7.55, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=750
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_750
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 750 изображений...
+Успешно скопировано 750 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_750/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_750/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_750/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_750/images
+  Всего блоков: 750
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 16.66 сек
+  l3benchmark: 16.40 сек
+
+Запуск 2/5...
+  time (real): 15.98 сек
+  l3benchmark: 15.80 сек
+
+Запуск 3/5...
+  time (real): 15.98 сек
+  l3benchmark: 15.80 сек
+
+Запуск 4/5...
+  time (real): 16.23 сек
+  l3benchmark: 16.00 сек
+
+Запуск 5/5...
+  time (real): 16.20 сек
+  l3benchmark: 16.00 сек
+
+Сводка для modular_inner, N=750:
+  time среднее: 16.21 сек (min: 15.98, max: 16.66, успешных: 5/5)
+  benchmark среднее: 16.00 сек (min: 15.80, max: 16.40, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=1000
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_1000
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 1000 изображений...
+Успешно скопировано 1000 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_1000/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_1000/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_1000/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_1000/images
+  Всего блоков: 1000
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 28.55 сек
+  l3benchmark: 28.30 сек
+
+Запуск 2/5...
+  time (real): 28.15 сек
+  l3benchmark: 27.90 сек
+
+Запуск 3/5...
+  time (real): 29.23 сек
+  l3benchmark: 28.10 сек
+
+Запуск 4/5...
+  time (real): 28.24 сек
+  l3benchmark: 28.00 сек
+
+Запуск 5/5...
+  time (real): 27.96 сек
+  l3benchmark: 27.70 сек
+
+Сводка для modular_inner, N=1000:
+  time среднее: 28.43 сек (min: 27.96, max: 29.23, успешных: 5/5)
+  benchmark среднее: 28.00 сек (min: 27.70, max: 28.30, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=1250
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_1250
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 1250 изображений...
+Успешно скопировано 1250 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_1250/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_1250/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_1250/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_1250/images
+  Всего блоков: 1250
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 43.21 сек
+  l3benchmark: 43.00 сек
+
+Запуск 2/5...
+  time (real): 43.18 сек
+  l3benchmark: 43.00 сек
+
+Запуск 3/5...
+  time (real): 43.11 сек
+  l3benchmark: 42.90 сек
+
+Запуск 4/5...
+  time (real): 43.19 сек
+  l3benchmark: 43.00 сек
+
+Запуск 5/5...
+  time (real): 42.51 сек
+  l3benchmark: 42.30 сек
+
+Сводка для modular_inner, N=1250:
+  time среднее: 43.04 сек (min: 42.51, max: 43.21, успешных: 5/5)
+  benchmark среднее: 42.84 сек (min: 42.30, max: 43.00, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=1500
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_1500
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 1500 изображений...
+Успешно скопировано 1500 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_1500/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_1500/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_1500/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_1500/images
+  Всего блоков: 1500
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 61.21 сек
+  l3benchmark: 61.00 сек
+
+Запуск 2/5...
+  time (real): 60.88 сек
+  l3benchmark: 60.70 сек
+
+Запуск 3/5...
+  time (real): 61.56 сек
+  l3benchmark: 61.30 сек
+
+Запуск 4/5...
+  time (real): 61.38 сек
+  l3benchmark: 61.20 сек
+
+Запуск 5/5...
+  time (real): 61.39 сек
+  l3benchmark: 61.20 сек
+
+Сводка для modular_inner, N=1500:
+  time среднее: 61.28 сек (min: 60.88, max: 61.56, успешных: 5/5)
+  benchmark среднее: 61.08 сек (min: 60.70, max: 61.30, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=1750
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_1750
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 1750 изображений...
+Успешно скопировано 1750 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_1750/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_1750/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_1750/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_1750/images
+  Всего блоков: 1750
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 82.85 сек
+  l3benchmark: 82.60 сек
+
+Запуск 2/5...
+  time (real): 81.19 сек
+  l3benchmark: 81.00 сек
+
+Запуск 3/5...
+  time (real): 81.50 сек
+  l3benchmark: 81.30 сек
+
+Запуск 4/5...
+  time (real): 83.29 сек
+  l3benchmark: 83.10 сек
+
+Запуск 5/5...
+  time (real): 82.39 сек
+  l3benchmark: 82.20 сек
+
+Сводка для modular_inner, N=1750:
+  time среднее: 82.24 сек (min: 81.19, max: 83.29, успешных: 5/5)
+  benchmark среднее: 82.04 сек (min: 81.00, max: 83.10, успешных: 5/5)
+
+============================================================
+Генерация modular_inner версии с N=2000
+============================================================
+Генерация модульной версии документа:
+  Папка с изображениями: images
+  Выходная директория: experiment/modular_inner/modular_inner_2000
+  Режим: inner (непосредственный текст вместо \lipsum)
+Копирование 2000 изображений...
+Успешно скопировано 2000 изображений
+
+Модульная версия успешно сгенерирована!
+  Основной файл: experiment/modular_inner/modular_inner_2000/main.tex
+  Файл описаний: experiment/modular_inner/modular_inner_2000/des.tex
+  Файл данных: experiment/modular_inner/modular_inner_2000/data.tex
+  Изображения скопированы в: experiment/modular_inner/modular_inner_2000/images
+  Всего блоков: 2000
+
+Запуск компиляции 5 раз...
+
+Запуск 1/5...
+  time (real): 107.28 сек
+  l3benchmark: 107.00 сек
+
+Запуск 2/5...
+  time (real): 105.23 сек
+  l3benchmark: 105.00 сек
+
+Запуск 3/5...
+  time (real): 105.60 сек
+  l3benchmark: 105.00 сек
+
+Запуск 4/5...
+  time (real): 107.40 сек
+  l3benchmark: 107.00 сек
+
+Запуск 5/5...
+  time (real): 105.64 сек
+  l3benchmark: 105.00 сек
+
+Сводка для modular_inner, N=2000:
+  time среднее: 106.23 сек (min: 105.23, max: 107.40, успешных: 5/5)
+  benchmark среднее: 105.80 сек (min: 105.00, max: 107.00, успешных: 5/5)
+
+✓ Результаты сохранены в ./benchmark_result_modular_inner/benchmark_result_modular_inner.csv
+
+============================================================
+ФИНАЛЬНАЯ СВОДКА ДЛЯ modular_inner
+============================================================
+N=  10: time=  0.32с, benchmark=  0.10с
+N=  20: time=  0.35с, benchmark=  0.13с
+N=  30: time=  0.38с, benchmark=  0.16с
+N=  50: time=  0.46с, benchmark=  0.24с
+N=  70: time=  0.56с, benchmark=  0.34с
+N= 100: time=  0.76с, benchmark=  0.54с
+N= 200: time=  1.73с, benchmark=  1.51с
+N= 500: time=  7.64с, benchmark=  7.43с
+N= 750: time= 16.21с, benchmark= 16.00с
+N=1000: time= 28.43с, benchmark= 28.00с
+N=1250: time= 43.04с, benchmark= 42.84с
+N=1500: time= 61.28с, benchmark= 61.08с
+N=1750: time= 82.24с, benchmark= 82.04с
+N=2000: time=106.23с, benchmark=105.80с
